@@ -1,0 +1,126 @@
+@charset "UTF-8"; 
+*{
+	font-family: arial;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.topo{
+	background-color: #313130;
+	height: 50px;
+}
+
+.topointerior{
+	width: 1000px;
+	margin: auto;
+	color: #FFFFFF;
+}
+
+.logomarca {
+	float: left;
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.menu{
+	float: right;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none; /*Retira o pontinho da lista não ordenada*/
+
+}
+
+.menu li{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+	font-size: 14px;
+}
+
+.menu li:hover{
+	background-color: #3479ba;
+	cursor: pointer;/* Ao passar o mouse por cima fica com a maozinha de clicar */
+}
+
+.banner{
+	background-color: #3479ba;
+	height: 300px;
+	
+}
+
+.bannerinterior{
+	width: 1000px;
+	margin: auto;
+}
+
+.banneresquerda{
+	float: left;
+	
+
+}
+
+.bannerdireita{
+	float: right;
+
+}
+.bannerdireita img{
+	margin-right: 55px;
+}
+
+.frase1 {
+		font-size: 48pt;
+		margin-top: 60px;
+		color: #FFFFFF;
+}
+
+.frase2{
+	font-size: 20pt;
+	color: #FFFFFF;
+}
+
+.botao{
+	background-color: #ffc001;
+	color: #000000;
+	width: 282px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5px: 
+}
+
+.conteudointerno{
+	width: 1000px;
+	margin: auto;
+}
+
+.outrosprodutos{
+	font-size: 20pt;
+	text-align: center;
+	color: #000000;
+	height: 90px;
+	line-height: 90px;
+}
+
+.fotos img{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.rodape{
+	background-color: #347aba;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	margin-top: 40px;
+}
