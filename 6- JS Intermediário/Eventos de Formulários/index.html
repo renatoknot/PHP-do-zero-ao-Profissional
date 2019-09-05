@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos de formulários</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <form method="POST" onsubmit="">
+        <input type="text" name="nome" id="" onfocus="focou()" onblur="desfocou()"><br><br>
+
+        <select name="cidade" id="" onchange="mudouOpcao(this)">
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+            <option>Belo Horizonte</option>
+            <option>Recife</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
