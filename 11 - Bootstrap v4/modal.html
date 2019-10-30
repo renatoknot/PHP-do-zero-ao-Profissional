@@ -12,7 +12,31 @@
 </head>
 <body>
     <div class="container">
-        
+        <button class="btn btn-primary" data-toggle="modal" data-target="#janela">Clique aqui para abrir</button>
+        <div class="modal fade" id="janela">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Titulo do Modal</h5>
+                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                Item1
+                            </div>
+                            <div class="col">
+                                Item2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success">Salvar</button>
+                        <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
