@@ -15,11 +15,10 @@
         } else {
             echo "Usuário e/ou senha inválidos";
         }
-        
     }
 ?>
 <h1>Login</h1>
-<form method="post">
+<form method="POST">
     E-mail: <br>
     <input type="email" name="email"><br><br>
     Senha: <br>
