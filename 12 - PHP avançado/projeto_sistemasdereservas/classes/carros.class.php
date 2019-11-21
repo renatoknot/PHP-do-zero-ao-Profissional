@@ -6,4 +6,17 @@
         {
             $this->pdo = $pdo;
         }
+
+        public function getCarros(){
+            $array = array();
+
+            $sql = "SELECT * from carros";
+            $sql = $this->pdo->query($sql);
+
+            if ($sql->rowCount() > 0){
+                $array = $sql->fetchAll();
+            }
+
+            return $array;
+        }
     }

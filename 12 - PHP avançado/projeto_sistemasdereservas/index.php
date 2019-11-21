@@ -7,7 +7,8 @@
     $carros = new Carros($pdo);
 ?>
 
-<h1>Reservas</h1>
+<h1>Reservas</h1> <br><br>
+<a href="reservar.php">Adicionar reserva</a><br><br>
 <?
     $lista = $reservas->getReservas();
 
@@ -17,3 +18,10 @@
 
         echo $item['pessoa']." reservou o carro ".$item['id_carro']." entre ".$datainicio." e ".$datafim."<br>";
     }
+?>
+
+<hr>
+
+<? 
+    require 'calendario.php';
+?>
