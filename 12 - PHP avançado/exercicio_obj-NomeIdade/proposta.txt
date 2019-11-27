@@ -1,0 +1,9 @@
+em PHP OO
+
+informar no construtor nome e data de nascimento(padrao br)
+
+em seguida retornar um echo com
+$pessoa->getNome(). ' tem '.$pessoa->getIdade().' anos.';
+
+ex: Renato tem 31 anos.
+
