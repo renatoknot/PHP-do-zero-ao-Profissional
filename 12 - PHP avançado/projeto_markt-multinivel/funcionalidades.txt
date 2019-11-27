@@ -1,6 +1,6 @@
 Niveis
 
-- iniciante = 0 cadastros
+- iniciante = 0 cadastro
 - junior = 1 cadastro
 - diretor = 3 cadastros
 - diretor senior = 5 cadastros
@@ -10,3 +10,11 @@ func.
 -login na conta e cadastra usuarios
 -listar cadastros até o nivel x
 -script para atualizar as patentes
+
+
+senhas login {
+
+    sistema = teste
+
+    outros usuarios = email cadastrado
+} 
