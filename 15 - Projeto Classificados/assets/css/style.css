@@ -1,0 +1,29 @@
+#nome-usuario{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    position: relative;
+    display: block;
+    padding: 15px 15px;
+}
+
+.foto_item{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+}
+.foto_item img{
+    width: 150px;
+    height: 150px;
+}
