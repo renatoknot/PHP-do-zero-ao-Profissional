@@ -102,7 +102,12 @@
                 </table>
                 <ul class="pagination">
                 <?php for($q=1; $q<=$total_paginas; $q++) : ?>
-                    <li class="<?=($p == $q) ? 'active': '';?>"><a href="index.php?p=<?=$q;?>"><?=$q;?></a></li>
+                    <li class="<?=($p == $q) ? 'active': '';?>"><a href="index.php?
+                    <? $w = $_GET;
+                        $w['p'] = $q;
+                        echo http_build_query($w);// inserido para remover o bug da paginação ao ter resultados filtrados
+                    ?>
+                    "><?=$q;?></a></li>
                 <?php endfor;?>
                 </ul>
             </div>
